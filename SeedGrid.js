@@ -1,5 +1,6 @@
 var apiUrl = "https://api.gettyimages.com:443/v3/search/images?file_types=jpg&page_size=20";
 var method = "GET";
+var apiKey = "your api key"
 
 $(function() {
     fetchData('1');
@@ -61,7 +62,7 @@ function fetchData(pageNum) {
 						data : {page:pageNum},			
 						dataType: "json",
 						headers:{
-							"Api-Key":"pzx2pxrdp69k9w53qxr8byae"
+							"Api-Key":apiKey
 						}
 					});
 
