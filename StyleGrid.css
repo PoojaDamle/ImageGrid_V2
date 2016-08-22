@@ -1,0 +1,73 @@
+
+.itemProp {
+    width: 330px;
+    height: 430px;
+    outline: 1px solid;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.itemDiv {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid;
+    float: left;
+    margin: 5px;
+}
+
+#panel {
+   width: 330px;
+   height: 465px;
+
+}
+
+#pageNav {
+	width: 330px;
+	height : 30px;
+	outline: 1px solid;
+	margin-top: 5px;
+}
+
+#pageNavBar {
+	width: 50%;
+	margin: 0 auto;
+    table-layout: fixed;
+}
+
+.selector {
+	text-decoration: none;
+    text-align: center;
+}
+.selected {
+    background-color: rgba(206,237,93,0.4);
+    text-decoration: none;
+    text-align: center;
+}
+.option {
+    text-align: center;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.round-button {
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border: 1px solid #f5f5f5;
+    border-radius: 0%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    font-size:10px;
+    font-weight:bold;
+    position: absolute;
+    margin-right: 0px;
+    display: none;
+    z-index: 10;
+}
+.round-button:hover {
+    background: #262626;
+    
+}
